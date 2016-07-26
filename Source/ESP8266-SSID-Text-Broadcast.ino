@@ -38,8 +38,8 @@ void setup() {
 void loop() {    
     chr = 0;
     c = 10;        
-    Serial.println("start"); 
-    Serial.println(text.length()); 
+    //Serial.println("start"); 
+    //Serial.println(text.length()); 
     // Randomize channel //
    
     channel = random(1,12); 
@@ -60,7 +60,7 @@ void loop() {
       }
       int pcount = 42; //Reset packet
       c++;
-      Serial.println(c); 
+      //Serial.println(c); 
       tmp = String(c); //convert int to string
       packet[38] = ph[1];
       packet[39] = tmp[0];

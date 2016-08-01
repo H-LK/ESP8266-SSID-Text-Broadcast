@@ -38,7 +38,7 @@ void setup() {
 
 void loop() {
   chr = 0;
-  if (c==17) {
+  if (c==17) { // <- Change this for modified text[] size.
   c = 0;
   }
   //Serial.println("start");
